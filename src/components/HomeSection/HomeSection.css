@@ -1,0 +1,32 @@
+section img {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+section .container {
+  text-align: left;
+  padding-bottom:50px;
+  min-height: 100vh;
+}
+
+.homeSection.dark {
+  background: #222222;
+  color: white;
+}
+
+.homeSection h1 {
+  position: relative;
+  font-size: 70px;
+  font-weight: 700;
+  padding-bottom: 160px;
+}
+
+.homeSection h1::after {
+  content: "";
+  position: absolute;
+  background: #0065ff;
+  left: 0;
+  top: 240px;
+  width: 25%;
+  height: 1px;
+}
